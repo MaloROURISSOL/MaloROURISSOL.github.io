@@ -1,0 +1,405 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.726);
+    font-size: large;
+}
+
+
+
+
+
+
+/* --------------------------------------------HEADER--------------------------------------------------- */
+.index {
+    background: url("images/avignon1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-size: cover;
+    text-shadow: 0px 3px black;
+}
+
+.segarer {
+    background: url("images/stationnement.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-size: cover;
+    text-shadow: 0px 3px black;
+}
+
+.avisiter {
+    background: url("images/baux_coupe.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-size: cover;
+    text-shadow: 0px 3px black;
+}
+
+.autres {
+    background: url("images/olive.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-size: cover;
+    text-shadow: 0px 3px black;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header nav a {
+    color: #bababa;
+    text-decoration: none;
+    
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+    border-bottom: 1px solid #919191;
+    
+}
+
+header .principal {
+    margin-top: 80px;
+}
+
+header .principal h4 {
+    margin-top: -20px;
+    padding: 20px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*
+
+.lien{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+}
+.lien:hover{
+  letter-spacing: 0.25em;
+}
+.lien::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+}
+.lien span{
+    position: relative;
+    z-index: 1;
+}
+
+
+
+/* --------------------------------------------CONTENU--------------------------------------------------- */
+
+html { scroll-behavior: smooth; }
+
+.premieres-presentations {
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.tester {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.barre {
+    border-bottom: 1px solid #919191;
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.premieres-presentations .text{
+    width: 40%;
+    margin-right: 80px;
+    margin-left: 10%;
+}
+
+.premieres-presentations .image {
+    padding-top: 10px;
+    
+}
+
+.premieres-presentations .gauche{
+    width: 60%;
+    margin-right: 80px;
+    margin-left: 10%;
+}
+
+.premieres-presentations .droite {
+    padding-top: 50px;
+}
+
+.tester .gauche{
+    width: 60%;
+    margin-right: 80px;
+    margin-left: 10%;
+}
+
+.tester .droite {
+    padding-top: 50px;
+}
+
+
+.gratuit {
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gratuit .gauche{
+    width: 60%;
+    margin-right: 80px;
+}
+
+
+.payant {
+    color: #fff;
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.payant .gauche{
+    width: 60%;
+    margin-right: 80px;
+}
+
+.numeros {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;  
+}
+
+.classement {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.infos {
+    color: #fff;
+    padding: 10%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.attention {
+    color: #fff;
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.attention .droite {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.attention .gauche {
+    padding-top: 30px;
+}
+
+.gratuit {
+    color: #fff;
+    padding: 10%;
+}
+
+
+footer {
+    background-color: #292929;
+    padding: 1px;
+    text-align: center;
+    color: #919191;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 50px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .office {
+      text-align: center;
+      color: #fff;
+  }
+
+  #scrollUp
+  {
+  position: fixed;
+  bottom : 10px;
+  right: -100px;
+  opacity: 0.5;
+  transition: 0.5s;
+  }
+
+  .ville {
+      color: #fff;
+      width: 60%;
+      margin-left: 10%;
+      text-decoration: wavy ;
+  }
+
+
+
+
+/* --------------------------------------------RESPONSIVE--------------------------------------------------- */
+/* Faire le responsive (apporter des conditions quand l'écran passe en dessous d'une sertaine taille) pour mobile */
+@media screen and (max-width: 1000px){
+    body {
+        font-size: medium;
+    }
+
+    .premieres-presentations .gauche{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .premieres-presentations .droite {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .premieres-presentations .text{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .premieres-presentations .image {
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+        height: min-content;
+    }
+
+    .infos h2 {
+        text-align: center;
+    }
+
+    .gratuit .gauche{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .gratuit .droite {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .payant .gauche{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .payant .droite {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header nav {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .attention .droite {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .attention .gauche {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gratuit {
+
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .numeros h2{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .classement {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+}
